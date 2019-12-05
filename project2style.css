@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  background-color:MediumSeaGreen;
+  height: 300vh;
+  width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+"a a a a a a a a a a a a a"
+"b b b b b c c c c c d d d d d"
+}
+
+.box {
+  color: Black;
+  border-radius: 5px;
+  border: 2px black solid;
+}
+
+.a {
+text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.btn-group button {
+background-color: ##fcbe03;
+border: 1px black solid;
+color: black;
+padding: 10px 24px;
+cursor: pointer;
+float: center;
+}
+.p {
+	font-size:20px;
+}
